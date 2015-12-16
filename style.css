@@ -1425,12 +1425,17 @@ img {
 		display: block;
 	}
 	.site-branding {
-		text-align: center;
+		position: absolute;
+		text-align: left;
 		padding: 0;
 	}
 	.slicknav_menu {
 		clear: both;
-		text-align: center;
+		text-align: right;
+	}
+	.slicknav_btn {
+		margin-top: 0;
+		line-height: 0;
 	}
 	.header-text {
 		font-size: 22px;

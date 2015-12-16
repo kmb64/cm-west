@@ -193,9 +193,6 @@ function west_branding() {
 		echo '<a href="' . esc_url( home_url( '/' ) ) . '" title="' . esc_attr(get_bloginfo('name')) . '"><img class="site-logo" src="' . esc_url(get_theme_mod('site_logo')) . '" alt="' . esc_attr(get_bloginfo('name')) . '" /></a>'; 
 	else :
 		echo '<h1 class="site-title"><a href="' . esc_url( home_url( '/' ) ) . '" rel="home">' . esc_html(get_bloginfo('name')) . '</a></h1>';
-		if ( get_bloginfo( 'description' ) ) {
-			echo '<h2 class="site-description">' . esc_html(get_bloginfo( 'description' )) . '</h2>';
-		}
 	endif;
 }
 endif;
