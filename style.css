@@ -19,7 +19,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	color: #969CB3;
 	word-wrap: break-word;
@@ -36,14 +36,14 @@ h5,
 h6 {
 	color: #2B2D3A;
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 800;
+	font-weight: 400;
 }
 a,
 a:hover {
-	color: #EAAB1C;
+	color: #22518F;
 }
 .primary-color {
-	color: #EAAB1C;
+	color: #22518F;
 }
 ul {
 	list-style-type: square;
@@ -99,7 +99,7 @@ input[type="submit"] {
 	border: 0;
 	font-weight: 700;
 	color: #fff;
-	background-color: #EAAB1C;
+	background-color: #22518F;
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
 	cursor: pointer; /* Improves usability and consistency of cursor style between image-type 'input' and others */
@@ -253,7 +253,7 @@ a:active {
 }
 .main-navigation li::before {
 	font-family: Fontawesome;
-	color: #EAAB1C;
+	color: #22518F;
 	display: inline-block;
 	margin-right: 7px;
 	-webkit-transition: color 0.3s;
@@ -306,7 +306,7 @@ a:active {
 .main-navigation a:hover,
 .main-navigation ul ul a:hover,
 .main-navigation ul ul a.focus {
-	color: #EAAB1C;
+	color: #22518F;
 }
 
 .main-navigation ul li:hover > ul,
@@ -322,7 +322,7 @@ a:active {
 .main-navigation .current_page_item > a,
 .main-navigation .current-menu-item > a,
 .main-navigation .current_page_ancestor > a {
-	border-bottom: 1px solid #EAAB1C;
+	border-bottom: 1px solid #22518F;
 }
 .main-navigation ul ul .current_page_item > a,
 .main-navigation ul ul .current-menu-item > a,
@@ -455,7 +455,7 @@ a:active {
 	padding: 15px 30px;
 	border: 0;
 	color: #fff;
-	background-color: #EAAB1C;
+	background-color: #22518F;
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
 }
@@ -573,7 +573,7 @@ a:active {
 	width: 30px;
 	height: 30px;
 	font-size: 16px;
-	background-color: #eaab1c;
+	background-color: #22518F;
 	line-height: 30px;
 	color: #fff;
 	border-radius: 50%;
@@ -622,7 +622,7 @@ a:active {
 	text-align: left;
 }
 .social-menu-widget a {
-	background-color: #eaab1c;
+	background-color: #22518F;
 	text-decoration: none;
 	display: inline-block;
 	width: 40px;
@@ -802,7 +802,7 @@ a:active {
 	-webkit-transition: color 0.3s;
 }
 .entry-title a:hover {
-	color: #EAAB1C;
+	color: #22518F;
 	text-decoration: none;
 }
 .entry-header {
@@ -866,7 +866,7 @@ a:active {
 	background-color: #1C1E29;
 }
 .list-meta .read-more {
-	background-color: #EAAB1C;
+	background-color: #22518F;
 }
 .list-meta,
 .list-meta a,
@@ -1000,7 +1000,7 @@ a.comment-reply-link:hover {
 	opacity: 0;
 	z-index: 9999;
 	cursor: pointer;
-	background-color: #EAAB1C;
+	background-color: #22518F;
 	border-radius: 50%;
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;

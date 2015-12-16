@@ -44,8 +44,8 @@ function west_custom_styles($custom) {
 	}
 
 	//Primary color
-	$primary_color = get_theme_mod( 'primary_color', '#EAAB1C' );
-	if ( $primary_color != '#EAAB1C' ) {
+	$primary_color = get_theme_mod( 'primary_color', '#22518F' );
+	if ( $primary_color != '#22518F' ) {
 		$custom .= ".entry-title a:hover,a, a:hover, .primary-color, .main-navigation a:hover,.main-navigation ul ul a:hover,.main-navigation ul ul a.focus, .main-navigation li::before { color:" . esc_attr($primary_color) . "}"."\n";
 		$custom .= ".west_contact_info_widget span,.go-top,.list-meta .read-more,.comment-navigation a,.posts-navigation a,.post-navigation a,button, .button:not(.header-button), input[type=\"button\"], input[type=\"reset\"], input[type=\"submit\"] { background-color:" . esc_attr($primary_color) . "}"."\n";
 		$custom .= ".main-navigation .current_page_item > a,.main-navigation .current-menu-item > a,.main-navigation .current_page_ancestor > a { border-color:" . esc_attr($primary_color) . "}"."\n";

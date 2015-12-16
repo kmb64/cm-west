@@ -741,7 +741,7 @@ function west_customize_register( $wp_customize ) {
     $wp_customize->add_setting(
         'primary_color',
         array(
-            'default'           => '#EAAB1C',
+            'default'           => '#22518F',
             'sanitize_callback' => 'sanitize_hex_color',
         )
     );
