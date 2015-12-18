@@ -120,6 +120,22 @@ function west_customize_register( $wp_customize ) {
         )
     );
     $wp_customize->add_setting(
+        'header_support_text',
+        array(
+            'default' => __('BLAH','west'),
+            'sanitize_callback' => 'west_sanitize_text',
+        )
+    );
+    $wp_customize->add_control(
+        'header_support_text',
+        array(
+            'label' => __( 'Header support text', 'west' ),
+            'section' => 'west_header_text',
+            'type' => 'text',
+            'priority' => 10
+        )
+    );
+    $wp_customize->add_setting(
         'button_left',
         array(
             'default' => __('Explore','west'),
