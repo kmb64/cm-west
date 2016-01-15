@@ -19,7 +19,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Helvetica Neue', sans-serif;
 	font-size: 14px;
 	color: #969CB3;
 	word-wrap: break-word;
@@ -193,6 +193,7 @@ textarea {
 	width: 100%;
 }
 .header-buttons {
+	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	position: relative;
 	margin-top: 45px;
@@ -232,6 +233,8 @@ a:active {
 ## Menus
 --------------------------------------------------------------*/
 .main-navigation {
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
 	display: block;
 	float: right;
 }
@@ -288,7 +291,6 @@ a:active {
 	padding: 0;
 }
 .main-navigation ul ul li {
-	text-transform: none;
 	padding: 10px;
 	font-weight: 300;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -1179,7 +1181,7 @@ img {
 	color: #A2A2A2;
 	font-weight: 400;
 	margin: 15px 0 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Helvetica Neue', sans-serif;
 }
 .header-image {
 	position: relative;
@@ -1382,7 +1384,7 @@ img {
 	.site-header,
 	.site-header.has-header {
 		position: relative !important;
-		background-color: #1C1E21;
+		background-color: #1C1E21 !important;;
 	}
 	.header-scrolled a,
 	.header-scrolled .site-title a {
