@@ -20,7 +20,6 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info container">
 			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'west' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'west' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
